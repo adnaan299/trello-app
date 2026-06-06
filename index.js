@@ -43,10 +43,16 @@
 
 // ];
 
+/*--------------------------------------------------------------*/
 
+const express = require("express")
 
 const users = [];
 const organizations = [];
 const boards = [];
 const issues = [];
+
+const app = express();
+
+app.listen(3000);
 
